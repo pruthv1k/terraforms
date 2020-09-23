@@ -1,6 +1,6 @@
 #Configure the Cloud Provider [aws]
 provider "aws" {
-  region = "us-west-2"
+  region = "<region-name>"
   access_key = "<enter aws iam user access key"
   secret_key = "<enter secret key>"
 }
