@@ -10,3 +10,5 @@ Pre - requisite : Install terraform on your client and set the ENV path.
                 
   Step - 3 : To start the deployment 
                 terraform apply
+                
+  *Note - to destroy the current terraform deployment -> terraform destroy
