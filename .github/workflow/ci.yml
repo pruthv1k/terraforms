@@ -1,13 +1,7 @@
-- name: Run playbook on Ansible Tower 
+- name: Run playbook on Ansible Tower
   uses: vortegon/github-action-ansible-tower@v1.0.5
   with:
-    # Ansible Tower User
     ansible-tower-user: admin
-    # Ansible Tower Password
     ansible-tower-pass: redhat
-    # Ansible Tower URL
     ansible-tower-url: https://192.168.10.151/#/login
-    # Extra vars required by the ansible playbook
-    additional-vars: 
-    # Template id on Ansible Tower
     template-id: 9
