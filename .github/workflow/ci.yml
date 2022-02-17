@@ -1,4 +1,4 @@
-- name: Run playbook on Ansible Tower
+- name: Run playbook on Ansible Tower 
   uses: vortegon/github-action-ansible-tower@v1.0.5
   with:
     # Ansible Tower User
