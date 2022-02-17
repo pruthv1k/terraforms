@@ -1,0 +1,10 @@
+workflow "Pruthvi Github Webhook test" {
+ on = "pull_request"
+ resolves = ["Call httpbin"]
+}
+
+action "Call httpbin" {
+ uses = "swinton/httpie.action@master"
+ args = ["POST", "https://192.168.10.151/api/v2/job_templates/9/launch/", "--auth=$USER_PASSWORD"]
+ secrets = ["USER_PASSWORD"]
+}
