@@ -1,6 +1,4 @@
 - name: Run playbook on Ansible Tower
-  # You may pin to the exact commit or the version.
-  # uses: vortegon/github-action-ansible-tower@f8da53fc7ea0e66e3011ed1182e3b1f3a60a48e7
   uses: vortegon/github-action-ansible-tower@v1.0.5
   with:
     # Ansible Tower User
