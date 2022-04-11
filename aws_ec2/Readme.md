@@ -12,3 +12,5 @@ Pre - requisite : Install terraform on your client and set the ENV path.
                 terraform apply
                 
   *Note - to destroy the current terraform deployment -> terraform destroy
+
+  TEST - 11 Apr 2022
